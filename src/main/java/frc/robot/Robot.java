@@ -13,6 +13,8 @@ import java.io.File;
 import java.io.IOException;
 import swervelib.parser.SwerveParser;
 
+
+
 /**
  * The VM is configured to automatically run this class, and to call the functions corresponding to each mode, as
  * described in the TimedRobot documentation. If you change the name of this class or the package after creating this
@@ -128,6 +130,7 @@ public class Robot extends TimedRobot
     }
     m_robotContainer.setDriveMode();
     m_robotContainer.setMotorBrake(true);
+    
   }
 
   /**
@@ -149,6 +152,7 @@ public class Robot extends TimedRobot
     } catch (IOException e)
     {
       throw new RuntimeException(e);
+      
     }
   }
 
